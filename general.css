@@ -1,30 +1,28 @@
-
-
+/* header  and Navbar*/
 .header {
-  background: url("images/SR3.jpg") center/cover fixed no-repeat;
+  background: url("images/KT2.jpg") center/cover fixed no-repeat;
   width: 100%;
   max-height: 800px;
-  height: 700px;
-  position: relative;
+  height: 400px;
+  position: static;
   top: 0;
-  bottom: 0;
-  left: 0;
   right: 0;
+  transform: translateY(70px);
+  /* z-index: 2; */
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .parentContainer{
   position: relative;
   overflow: hidden;
-}
-
-nav{
-  background: rgba(41, 38, 38, 0.356);
-  overflow: hidden !important;
-  position: absolute;
-}
-
-.logoImg{
-  border-radius: 50%;
 }
 
 .mask {
@@ -38,29 +36,19 @@ nav{
   left: 0;
   flex-direction: column;
   text-align: center;
-  transform: translateY(-20%);
 }
 
-.mask p {
-  padding: 20px;
+.banner{
+ position: relative;
+ overflow: hidden;
+ bottom: 0;
+ left: 0;
+ transform: translateY(100px);
 }
-
-.overlay {
-  background-color: rgba(0, 0, 0, 0.7);
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-.bi {
-  font-size: 40px;
-}
+/* end header  and Navbar*/
 
 
-
-
+/* footer */
 .footer {
   background: url("images/KT4.jpg") center/cover fixed no-repeat;
   width: 100%;
@@ -71,6 +59,7 @@ nav{
   bottom: 0;
   left: 0;
   right: 0;
+  transform: translateY(140px);
 }
 
 .wordsOver {
@@ -100,6 +89,7 @@ nav{
   justify-content: center;
   align-items: center;
   max-height: 100%;
+  
 }
 
 .footrow{
@@ -117,7 +107,8 @@ a {
 }
 
 
-.changeIconSize{
+
+.footerIcon{
   font-size: 20px;
 }
 
@@ -125,18 +116,11 @@ a {
   font-size: 28px;
 }
 
+
+
 .year{
   position: absolute;
   bottom: 0;
   color: white;
 }
-
-@media (max-width: 767px) {
-  .card-title {
-    text-align: center;
-  }
-
- 
-
-  
-}
+/*end footer */

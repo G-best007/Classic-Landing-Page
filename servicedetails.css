@@ -1,0 +1,56 @@
+
+
+
+.headingwords{
+ transform: translateY(120px);
+}
+
+
+.cardHero{
+  max-height: 100%;
+  height: 100%;
+}
+
+.cardImg{
+  height: 100%;
+}
+
+.solution{
+  transform: translateY(145px);
+}
+
+.solutionCard{
+  height: 300px;
+}
+
+
+.cardbody{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.solutionIcon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  transform: translateY(100px);
+}
+
+
+.firstAccordion{
+   transform: translateY(150px);
+}
+
+.contact{
+   transform: translateY(155px);
+}
+
+
+.contactIcon{
+  font-size: 20px;
+}
+
+
+
