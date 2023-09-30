@@ -1,3 +1,15 @@
+ @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700&family=Montserrat&display=swap');
+
+body{
+font-family: 'Montserrat', sans-serif;
+font-size: 18px;
+background-color: rgba(252, 252, 252, 0.466);
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
 /* header  and Navbar*/
 .header {
   background: url("images/KT2.jpg") center/cover fixed no-repeat;
@@ -11,6 +23,11 @@
   /* z-index: 2; */
 }
 
+.navbar{
+  background-color: rgba(252, 252, 252, 0.466);
+  box-shadow: 0 5px 15px rgba(0,0,0,.1);
+}
+
 .overlay {
   background-color: rgba(0, 0, 0, 0.7);
   width: 100%;
@@ -18,6 +35,12 @@
   position: absolute;
   top: 0;
   left: 0;
+  
+}
+
+.logoImg{
+  border-radius: 50%;
+  transform: translateY(10px);
 }
 
 .parentContainer{
