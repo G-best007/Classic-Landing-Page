@@ -5,6 +5,9 @@ body{
 font-family: 'Montserrat', sans-serif;
 font-size: 18px;
 background-color: rgba(252, 252, 252, 0.466);
+letter-spacing: normal;
+word-spacing: normal;
+line-height: 1.5;
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -71,14 +74,17 @@ nav{
   font-size: 40px;
 }
 
+.designText{
+  text-align: justify;
 
+}
 
 
 .footer {
   background: url("images/KT4.jpg") center/cover fixed no-repeat;
   width: 100%;
-  max-height: 650px;
-  height: 700px;
+  /* max-height: 100dvh; */
+  height: 750px;
   position: relative;
   top: 0;
   bottom: 0;
@@ -149,5 +155,4 @@ a {
     text-align: center;
   }
 
- 
 }
