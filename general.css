@@ -131,6 +131,10 @@ a {
   margin-bottom: 25px;
 }
 
+.show ::placeholder{
+  color: red;
+}
+
 
 
 .footerIcon{
