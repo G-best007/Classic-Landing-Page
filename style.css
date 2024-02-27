@@ -70,6 +70,7 @@ nav{
   left: 0;
 }
 
+
 .show::placeholder{
   color: red;
 }
