@@ -3,7 +3,7 @@
 body{
 background: hsla(0, 0%, 96%, 0.748);
 line-height: 1.5;
-word-spacing: normal;
+ text-align: left;
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -12,21 +12,18 @@ h1,h2,h3,h4,h5,h6{
 
 p{
   font-family: 'Montserrat', sans-serif;
-  font-size: 18px;
-  text-align: justify;
+  font-size: 1.125rem;
 }
 
 /* header  and Navbar*/
 .header {
-  background: url("images/KT2.jpg") center/cover fixed no-repeat;
-  width: 100%;
-  display: block;
-  max-height: 800px;
-  height: 400px;
-  position: relative;
-  top: 0;
-  right: 0;
   transform: translateY(70px);
+}
+
+.BcgImage{
+  max-width: 100%;
+  width: 100%;
+  height: 600px;
 }
 
 .navbar{
@@ -37,11 +34,10 @@ p{
 .overlay {
   background-color: rgba(0, 0, 0, 0.7);
   width: 100%;
-  height: 100%;
+  height: 600px;
   position: absolute;
   top: 0;
   left: 0;
-  
 }
 
 .logoImg{
@@ -58,7 +54,7 @@ p{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 450px;
+  height: 600px;
   width: 100%;
   position: absolute;
   bottom: 0;
@@ -78,16 +74,25 @@ p{
 
 
 /* footer */
-.footer {
-  background: url("images/KT4.jpg") center/cover fixed no-repeat;
+
+.footer{
+  transform: translateY(140px);
+}
+
+.Bcgfooter{
+  max-width: 100%;
   width: 100%;
   height: 750px;
-  position: relative;
+}
+
+
+.footeroverlay{
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 750px;
+  position: absolute;
   top: 0;
-  bottom: 0;
   left: 0;
-  right: 0;
-  transform: translateY(140px);
 }
 
 .wordsOver {
@@ -105,24 +110,18 @@ p{
 
 
 .foot{
+ display: flex;
+  justify-content: center;
+  align-items: center;
   position: absolute;
   top: 0;
   left: 0;
-  right: 0;
-  bottom: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  max-height: 100%;
-  
+  width: 100%;
+  max-width: 100%;
+  height: 650px;
 }
 
-.footrow{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  
-}
+
 
 a {
   text-decoration: none;
