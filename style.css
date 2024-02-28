@@ -2,20 +2,24 @@
   @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700&family=Montserrat&display=swap');
 
 body{
-font-family: 'Montserrat', sans-serif;
-font-size: 18px;
-background-color: rgba(252, 252, 252, 0.466);
-letter-spacing: normal;
-word-spacing: normal;
+background: hsla(0, 0%, 96%, 0.748);
 line-height: 1.5;
+word-spacing: normal;
 }
 
 h1,h2,h3,h4,h5,h6{
   font-family: 'Barlow Condensed', sans-serif;
 }
 
+p{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  text-align: justify;
+}
+
 .header {
   background: url("images/SR3.jpg") center/cover fixed no-repeat;
+  max-width: 100%;
   width: 100%;
   max-height: 800px;
   height: 700px;
